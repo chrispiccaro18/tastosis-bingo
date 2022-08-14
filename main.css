@@ -1,0 +1,40 @@
+body {
+  /* width: 100%; */
+  /* color: blue; */
+
+}
+
+table {
+  border-spacing: 0;
+  border: 2px solid black;
+  /* display: flex; */
+}
+
+th {
+  font-size: 4rem;
+}
+
+td {
+  font-size: 1rem;
+}
+
+th, td {
+  height: 7rem;
+  width: 7rem;
+  /* padding: 2rem; */
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 0;
+  text-align: center;
+}
+
+@media print {
+  @page {
+    size: auto;
+    margin: 10%;
+  }
+
+  table {
+    break-inside: avoid;
+  }
+}
