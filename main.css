@@ -1,13 +1,6 @@
-body {
-  /* width: 100%; */
-  /* color: blue; */
-
-}
-
 table {
   border-spacing: 0;
   border: 2px solid black;
-  /* display: flex; */
 }
 
 th {
