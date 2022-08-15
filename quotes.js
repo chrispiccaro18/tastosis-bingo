@@ -24,4 +24,8 @@ export const quoteArray = [
   "Microsoft acquisition is mentioned",
   "Making fun of other games that arent starcraft",
   "Mentions Stormgate",
+  "Zerg being inefficient against Terran",
+  "Zerg bank",
+  "“This map looks like a face/animal”",
+  "Throwing shade at the observer",
 ];
