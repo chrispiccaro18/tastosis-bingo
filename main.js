@@ -3,7 +3,6 @@ const usedQuotes = [];
 
 const dataRows = document.querySelectorAll('.data-row');
 
-
 dataRows.forEach(row => {
   for (let i = 0; i < 5; i++) {
     const cell = document.createElement('td');
@@ -11,7 +10,7 @@ dataRows.forEach(row => {
     if (row.id === 'third-row' && i === 2) {
       cell.textContent = 'GG';
     } else {
-      let textContent = quoteArray[Math.floor(Math.random() * quoteArray.length - 1)];
+      let textContent = quoteArray[Math.floor(Math.random() * quoteArray.length)];
       while (usedQuotes.includes(textContent) || !textContent) {
         textContent = quoteArray[Math.floor(Math.random() * quoteArray.length - 1)];
       }
